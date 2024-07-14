@@ -58,7 +58,7 @@ const Dashboard = () => {
       <section>
         <h3 className="text-2xl mb-4 text-green-500">REGULER</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {DASHBOARD_DATA_REG.map(({ id, title, openDate, closeDate, time, module, link }) => (
+          {DASHBOARD_DATA_REG.map(({ id, title, openDate, closeDate, time, module, link1, link2 }) => (
             <div key={id} className="bg-gray-800 p-4 rounded-lg shadow-md flex flex-col">
               {getIcon(title)}
               <h2 className="text-xl font-semibold mb-2 text-green-500">{title}</h2>
@@ -66,7 +66,10 @@ const Dashboard = () => {
               <p className="text-gray-300 mb-2">Tutup pada: {closeDate}</p>
               <p className="text-gray-300 mb-4">Waktu: {time}</p>
               <p className="text-gray-300 mb-2">Modul: {module}</p>
-              <Link to={link} className="mt-auto bg-green-500 text-white py-2 rounded-md text-center hover:bg-green-700">Akses</Link>
+              <div className="flex justify-center mt-6">
+                <Link to={link1} className="bg-green-500 text-white py-2 px-4 rounded-md text-center hover:bg-green-700">Modul 3</Link>
+                <Link to={link2} className="bg-blue-500 text-white py-2 px-4 rounded-md text-center hover:bg-blue-700 ml-2">Modul 4</Link>
+              </div>
             </div>
           ))}
         </div>
@@ -75,14 +78,18 @@ const Dashboard = () => {
       <section className="mt-16">
         <h3 className="text-2xl mb-4 text-blue-500">INTER</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {DASHBOARD_DATA_INTER.map(({ id, title, openDate, closeDate, time, module, link }) => (
+          {DASHBOARD_DATA_INTER.map(({ id, title, openDate, closeDate, time, module, link1, link2 }) => (
             <div key={id} className="bg-gray-800 p-4 rounded-lg shadow-md flex flex-col">
               {getIcon(title)}
+              <h2 className="text-xl font-semibold mb-2 text-blue-500">{title}</h2>
               <p className="text-gray-300 mb-2">Opens on: {openDate}</p>
               <p className="text-gray-300 mb-2">Closes on: {closeDate}</p>
               <p className="text-gray-300 mb-4">Time: {time}</p>
               <p className="text-gray-300 mb-2">Module: {module}</p>
-              <Link to={link} className="mt-auto bg-blue-500 text-white py-2 rounded-md text-center hover:bg-blue-700">Access</Link>
+              <div className="flex justify-center mt-6">
+                <Link to={link1} className="bg-green-500 text-white py-2 px-4 rounded-md text-center hover:bg-green-700">Modul 3</Link>
+                <Link to={link2} className="bg-blue-500 text-white py-2 px-4 rounded-md text-center hover:bg-blue-700 ml-2">Modul 4</Link>
+              </div>
             </div>
           ))}
         </div>

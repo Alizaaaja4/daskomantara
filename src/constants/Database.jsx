@@ -6,7 +6,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "15 Maret 2024",
       time: "08:00 - 17:00",
       module: "Praktikum 1",
-      link: "/tp",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 2,
@@ -15,7 +16,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "20 Maret 2024",
       time: "09:00 - 18:00",
       module: "Praktikum 2",
-      link: "/ta",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 3,
@@ -24,7 +26,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "25 Maret 2024",
       time: "07:00 - 16:00",
       module: "Praktikum 3",
-      link: "/tk",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 4,
@@ -33,7 +36,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "30 Maret 2024",
       time: "10:00 - 19:00",
       module: "Praktikum 4",
-      link: "/jurnal",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 5,
@@ -42,7 +46,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "05 April 2024",
       time: "11:00 - 20:00",
       module: "Praktikum 5",
-      link: "/mandiri",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 6,
@@ -51,7 +56,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "10 April 2024",
       time: "12:00 - 21:00",
       module: "Praktikum 6",
-      link: "/tubes",
+      link1: "/tp",
+      link2: "/tp",
     },
   ];
 
@@ -63,7 +69,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "March 15, 2024",
       time: "08:00 AM - 05:00 PM",
       module: "Practicum 1",
-      link: "/tp",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 2,
@@ -72,7 +79,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "March 20, 2024",
       time: "09:00 AM - 06:00 PM",
       module: "Practicum 2",
-      link: "/ta",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 3,
@@ -81,7 +89,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "March 25, 2024",
       time: "07:00 AM - 04:00 PM",
       module: "Practicum 3",
-      link: "/tk",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 4,
@@ -90,7 +99,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "March 30, 2024",
       time: "10:00 AM - 07:00 PM",
       module: "Practicum 4",
-      link: "/journal",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 5,
@@ -99,7 +109,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "April 5, 2024",
       time: "11:00 AM - 08:00 PM",
       module: "Practicum 5",
-      link: "/independent",
+      link1: "/tp",
+      link2: "/tp",
     },
     {
       id: 6,
@@ -108,7 +119,8 @@ export const DASHBOARD_DATA_REG = [
       closeDate: "April 10, 2024",
       time: "12:00 PM - 09:00 PM",
       module: "Practicum 6",
-      link: "/project",
+      link1: "/tp",
+      link2: "/tp",
     },
   ];
   
