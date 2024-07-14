@@ -14,8 +14,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "20 Juli 2024",
       closeDate: "20 Juli 2024",
       status: "COMING-SOON",
-      link1: "https://forms.gle/KZM21HbWYcHQLhw98",
-      link2: "https://forms.gle/mj3n7EGTgbyqsztz5",
+      // link1: "https://forms.gle/KZM21HbWYcHQLhw98",
+      // link2: "https://forms.gle/mj3n7EGTgbyqsztz5",
     },
     {
       id: 3,
@@ -23,8 +23,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "20 Juli 2024",
       closeDate: "20 Juli 2024",
       status: "COMING-SOON",
-      link1: "https://forms.gle/w2mk7h7m5Cd2dc5K9",
-      link2: "https://forms.gle/oSKhnshehpnvam7dA",
+      // link1: "https://forms.gle/w2mk7h7m5Cd2dc5K9",
+      // link2: "https://forms.gle/oSKhnshehpnvam7dA",
     },
     {
       id: 4,
@@ -32,8 +32,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "20 Juli 2024",
       closeDate: "20 Juli 2024",
       status: "COMING-SOON",
-      link1: "https://docs.google.com/document/d/1lzqEcKcbo9u3DNpyXv-bHb2505unBBO_/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
-      link2: "https://docs.google.com/document/d/1STnDuqwPxQLHjCnZe_5cTv3exUtzrGEB/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      // link1: "https://docs.google.com/document/d/1lzqEcKcbo9u3DNpyXv-bHb2505unBBO_/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      // link2: "https://docs.google.com/document/d/1STnDuqwPxQLHjCnZe_5cTv3exUtzrGEB/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
     },
     {
       id: 5,
@@ -41,8 +41,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "20 Juli 2024",
       closeDate: "20 Juli 2024",
       status: "COMING-SOON",
-      link1: "https://docs.google.com/document/d/1F2pBCJ6x-92pObhEkuB7jg7_FSNv9ffh/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
-      link2: "https://docs.google.com/document/d/1DJaxMmwyMxxJyZvh_gMNKBbg2qTqLV89/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      // link1: "https://docs.google.com/document/d/1F2pBCJ6x-92pObhEkuB7jg7_FSNv9ffh/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      // link2: "https://docs.google.com/document/d/1DJaxMmwyMxxJyZvh_gMNKBbg2qTqLV89/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
     },
     {
       id: 6,
