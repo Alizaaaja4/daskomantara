@@ -59,7 +59,7 @@ export const DASHBOARD_DATA_REG = [
     {
       id: 1,
       title: "TP Assignment",
-      openDate: "July 18, 2024",
+      openDate: "July 15, 2024",
       closeDate: "July 18, 2024",
       status: "ON-GOING",
       link1: "https://docs.google.com/document/d/1cVVMfnpEh9nrZtiFrCyIk978_jvG_O_Zzfr2EGFrMXE/edit?usp=drive_link",
