@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { FaFileAlt, FaJournalWhills, FaClipboardCheck, FaBookOpen } from 'react-icons/fa';
 import { DASHBOARD_DATA_REG, DASHBOARD_DATA_INTER } from '../constants/Database';
@@ -10,7 +10,7 @@ const Dashboard = () => {
   const handleLogout = () => {
     console.log('Logged out');
     localStorage.removeItem('authToken'); // Clear auth token
-    navigate('/', { replace: true }); // Redirect to main page
+    navigate('/', { replace: true }); 
   };
 
   const getIcon = (title) => {
@@ -58,17 +58,16 @@ const Dashboard = () => {
       <section>
         <h3 className="text-2xl mb-4 text-green-500">REGULER</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {DASHBOARD_DATA_REG.map(({ id, title, openDate, closeDate, time, module, link1, link2 }) => (
+          {DASHBOARD_DATA_REG.map(({ id, title, openDate, closeDate, status, link1, link2 }) => (
             <div key={id} className="bg-gray-800 p-4 rounded-lg flex flex-col hover:shadow-md hover:shadow-green-300">
               {getIcon(title)}
               <h2 className="text-xl font-semibold mb-2 text-green-500">{title}</h2>
-              <p className="text-gray-300 mb-2">Membuka pada: {openDate}</p>
+              <p className="text-gray-300 mb-2">Dibuka pada: {openDate}</p>
               <p className="text-gray-300 mb-2">Tutup pada: {closeDate}</p>
-              <p className="text-gray-300 mb-4">Waktu: {time}</p>
-              <p className="text-gray-300 mb-2">Modul: {module}</p>
+              <p className="text-gray-300 mb-4">Status: {status}</p>
               <div className="flex justify-center mt-6">
-                <Link to={link1} className="bg-green-500 text-white py-2 px-4 rounded-md text-center hover:bg-green-700">Modul 3</Link>
-                <Link to={link2} className="bg-blue-500 text-white py-2 px-4 rounded-md text-center hover:bg-blue-700 ml-2">Modul 4</Link>
+                <Link to={link1} className="bg-yellow-600 text-white py-2 px-4 rounded-md text-center hover:bg-yellow-700">Modul 3</Link>
+                <Link to={link2} className="bg-purple-600 text-white py-2 px-4 rounded-md text-center hover:bg-purple-700 ml-2">Modul 4</Link>
               </div>
             </div>
           ))}
@@ -78,17 +77,16 @@ const Dashboard = () => {
       <section className="mt-16">
         <h3 className="text-2xl mb-4 text-blue-500">INTER</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {DASHBOARD_DATA_INTER.map(({ id, title, openDate, closeDate, time, module, link1, link2 }) => (
+          {DASHBOARD_DATA_INTER.map(({ id, title, openDate, closeDate, status, link1, link2 }) => (
             <div key={id} className="bg-gray-800 p-4 rounded-lg flex flex-col hover:shadow-md hover:shadow-green-300">
               {getIcon(title)}
               <h2 className="text-xl font-semibold mb-2 text-blue-500">{title}</h2>
-              <p className="text-gray-300 mb-2">Opens on: {openDate}</p>
-              <p className="text-gray-300 mb-2">Closes on: {closeDate}</p>
-              <p className="text-gray-300 mb-4">Time: {time}</p>
-              <p className="text-gray-300 mb-2">Module: {module}</p>
+              <p className="text-gray-300 mb-2">Open on: {openDate}</p>
+              <p className="text-gray-300 mb-2">Close on: {closeDate}</p>
+              <p className="text-gray-300 mb-4">Status: {status}</p>
               <div className="flex justify-center mt-6">
-                <Link to={link1} className="bg-green-500 text-white py-2 px-4 rounded-md text-center hover:bg-green-700">Modul 3</Link>
-                <Link to={link2} className="bg-blue-500 text-white py-2 px-4 rounded-md text-center hover:bg-blue-700 ml-2">Modul 4</Link>
+                <Link to={link1} className="bg-yellow-600 text-white py-2 px-4 rounded-md text-center hover:bg-yellow-700">Modul 3</Link>
+                <Link to={link2} className="bg-purple-600 text-white py-2 px-4 rounded-md text-center hover:bg-purple-700 ml-2">Modul 4</Link>
               </div>
             </div>
           ))}
