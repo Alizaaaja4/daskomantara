@@ -41,7 +41,7 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen mt-10 bg-gray-900 text-white p-6">
-      <h1 className="text-4xl font-bold mb-2 text-center">Student Dashboard</h1>
+      <h1 className="text-4xl font-bold mb-2 text-center">Student <span className='text-green-300'>Dashboard</span></h1>
       <p className="text-center text-lg text-gray-400 mb-6">
         Discover the latest information about your assignments and practicum schedules here.
       </p>
@@ -59,7 +59,7 @@ const Dashboard = () => {
         <h3 className="text-2xl mb-4 text-green-500">REGULER</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {DASHBOARD_DATA_REG.map(({ id, title, openDate, closeDate, time, module, link1, link2 }) => (
-            <div key={id} className="bg-gray-800 p-4 rounded-lg shadow-md flex flex-col">
+            <div key={id} className="bg-gray-800 p-4 rounded-lg flex flex-col hover:shadow-md hover:shadow-green-300">
               {getIcon(title)}
               <h2 className="text-xl font-semibold mb-2 text-green-500">{title}</h2>
               <p className="text-gray-300 mb-2">Membuka pada: {openDate}</p>
@@ -79,7 +79,7 @@ const Dashboard = () => {
         <h3 className="text-2xl mb-4 text-blue-500">INTER</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {DASHBOARD_DATA_INTER.map(({ id, title, openDate, closeDate, time, module, link1, link2 }) => (
-            <div key={id} className="bg-gray-800 p-4 rounded-lg shadow-md flex flex-col">
+            <div key={id} className="bg-gray-800 p-4 rounded-lg flex flex-col hover:shadow-md hover:shadow-green-300">
               {getIcon(title)}
               <h2 className="text-xl font-semibold mb-2 text-blue-500">{title}</h2>
               <p className="text-gray-300 mb-2">Opens on: {openDate}</p>
