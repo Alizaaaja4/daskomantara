@@ -50,8 +50,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "3 Agustus 2024",
       closeDate: "16 Agustus 2024",
       status: "COMING-SOON",
-      link1: "/tubes",
-      link2: "/tubes",
+      // link1: "/tubes",
+      // link2: "/tubes",
     },
   ];
 
@@ -62,8 +62,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "July 18, 2024",
       closeDate: "July 18, 2024",
       status: "ON-GOING",
-      link1: "/tp",
-      link2: "/tp",
+      link1: "https://docs.google.com/document/d/1cVVMfnpEh9nrZtiFrCyIk978_jvG_O_Zzfr2EGFrMXE/edit?usp=drive_link",
+      link2: "https://docs.google.com/document/d/1J6cXIDg0flOIWDCjaOgZFFJBil7P2jSHTYq619MrBMg/edit?usp=drive_link",
     },
     {
       id: 2,
@@ -71,8 +71,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "July 19, 2024",
       closeDate: "July 20, 2024",
       status: "COMING-SOON",
-      link1: "/tp",
-      link2: "/tp",
+      // link1: "https://forms.gle/YPpA9EremAg4WPEQ6",
+      // link2: "https://forms.gle/v2CzLk9wnpHhVsrE7",
     },
     {
       id: 3,
@@ -80,8 +80,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "July 19, 2024",
       closeDate: "July 20, 2024",
       status: "COMING-SOON",
-      link1: "/tp",
-      link2: "/tp",
+      // link1: "https://forms.gle/4ThCXhcHtmh9LRDv9",
+      // link2: "https://forms.gle/zQKCooNPENjQ9KmL6",
     },
     {
       id: 4,
@@ -89,8 +89,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "July 19, 2024",
       closeDate: "July 20, 2024",
       status: "COMING-SOON",
-      link1: "/tp",
-      link2: "/tp",
+      // link1: "https://docs.google.com/document/d/1IlJ99ltCHXjvF_nGPpZbjwOl2qR2x07P/edit?usp=drive_link",
+      // link2: "https://docs.google.com/document/d/1fUHrkbwGxtKwSw3KgqGS_Y4afcGNKcxF/edit?usp=drive_link",
     },
     {
       id: 5,
@@ -98,8 +98,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "July 19, 2024",
       closeDate: "July 20, 2024",
       status: "COMING-SOON",
-      link1: "/tp",
-      link2: "/tp",
+      // link1: "https://docs.google.com/document/d/1Asl_n_HaSA1Ut2BhoEG4qUQMF_R8CKFl/edit?usp=drive_link",
+      // link2: "https://docs.google.com/document/d/175s5KsuHcK_6N8P2X9wUSIGO63ezNSNd/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
     },
     {
       id: 6,
@@ -107,8 +107,8 @@ export const DASHBOARD_DATA_REG = [
       openDate: "August 3, 2024",
       closeDate: "August 15, 2024",
       status: "COMING-SOON",
-      link1: "/tp",
-      link2: "/tp",
+      // link1: "/tp",
+      // link2: "/tp",
     },
   ];
   
