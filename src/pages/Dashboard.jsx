@@ -2,7 +2,7 @@
 import { useNavigate, Link } from 'react-router-dom';
 import { FaFileAlt, FaJournalWhills, FaClipboardCheck, FaBookOpen } from 'react-icons/fa';
 import { DASHBOARD_DATA_REG, DASHBOARD_DATA_INTER } from '../constants/Database';
-import Footer from "../components/Footer";
+import FooterDash from "../components/FooterDash";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -92,8 +92,7 @@ const Dashboard = () => {
           ))}
         </div>
       </section>
-
-      <Footer />
+      <FooterDash />
     </div>
   );
 };
