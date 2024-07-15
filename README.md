@@ -2,7 +2,7 @@
 
 [![codebeat badge](https://codebeat.co/badges/da08ee89-8548-4e7b-9f36-fe175517c9b5)](https://codebeat.co/projects/github-com-daskomdev-daskomweb-master) ![Daskomlab.com deployment](https://github.com/daskomdev/daskomweb/workflows/Daskomlab.com%20deployment/badge.svg)
 
-![antaraDaskom](https://github.com/Alizaaaja4/antaraApp/blob/main/src/assets/antaraApp.jpg)
+<img src="https://raw.githubusercontent.com/Alizaaaja4/antaraApp/main/src/assets/Dokumentasi.gif" alt="Dokumentasi" width="900" height="500">
 
 ## Tentang antaraDaskom App
 
