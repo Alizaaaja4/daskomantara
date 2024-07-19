@@ -4,31 +4,31 @@ import { FaPhone, FaEnvelope, FaInstagram, FaGlobe, FaTiktok } from 'react-icons
 
 const Footer = () => {
   return (
-    <footer className="border-t-2 text-gray-300 py-8 mt-10">
+    <footer className="bg-forest-background text-white border-t-2 py-8 mt-10">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-xl font-bold mb-4 text-green-300">Kontak Person</h3>
+            <h3 className="text-xl font-bold mb-4 text-forest-yellow">Kontak Person</h3>
             <p className="flex items-center justify-center md:justify-start mb-2">
-              <FaPhone className="mr-2" /> Indi Viska Rahmasari (VIS) - 085802253573
+              <FaPhone className="mr-2 text-forest-yellow" /> Indi Viska Rahmasari (VIS) - 085802253573
             </p>
             <p className="flex items-center justify-center md:justify-start mb-2">
-              <FaPhone className="mr-2" /> Dennytan Raharjo (TAN) - 081395882733
+              <FaPhone className="mr-2 text-forest-yellow" /> Dennytan Raharjo (TAN) - 081395882733
             </p>
             <p className="flex items-center justify-center md:justify-start mb-2">
-              <FaEnvelope className="mr-2" /> daskom@labs.telkomuniversity.ac.id
+              <FaEnvelope className="mr-2 text-forest-yellow" /> daskom@labs.telkomuniversity.ac.id
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4 text-green-300">Temukan Kami</h3>
+            <h3 className="text-xl font-bold mb-4 text-forest-yellow">Temukan Kami</h3>
             <div className="flex justify-center md:justify-end space-x-6 mb-6 md:mb-0">
-              <a href="https://www.instagram.com/telu.daskom?igsh=MTdpYXoyYW1tYmU4MA==" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+              <a href="https://www.instagram.com/telu.daskom?igsh=MTdpYXoyYW1tYmU4MA==" target="_blank" rel="noopener noreferrer" className="text-forest-yellow hover:text-white">
                 <FaInstagram size={24} />
               </a>
-              <a href="https://www.daskomlab.com/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+              <a href="https://www.daskomlab.com/" target="_blank" rel="noopener noreferrer" className="text-forest-yellow hover:text-white">
                 <FaGlobe size={24} />
               </a>
-              <a href="https://www.tiktok.com/@daskom" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+              <a href="https://www.tiktok.com/@daskom" target="_blank" rel="noopener noreferrer" className="text-forest-yellow hover:text-white">
                 <FaTiktok size={24} />
               </a>
             </div>

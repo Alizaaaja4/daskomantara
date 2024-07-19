@@ -7,10 +7,11 @@ export default {
         ubuntu: ['Ubuntu', 'sans-serif'],
       },
       colors: {
-        black: '#000000',
-        white: '#ffffff',
-        greenDark: '#064e3b', // Hijau gelap
-        greenLight: '#6ee7b7', // Hijau terang
+        'forest-light-green': '#00FF7F',
+        'forest-teal': '#00CED1',
+        'forest-dark-green': '#006400',
+        'forest-background': '#111111',
+        'forest-yellow': '#FFD700',
       },
     },
   },

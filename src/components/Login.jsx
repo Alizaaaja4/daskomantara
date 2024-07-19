@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const LoginPage = () => {
@@ -25,9 +25,9 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 p-10">
-      <div className="bg-gray-800 p-6 rounded-lg  w-full max-w-md shadow-md shadow-green-300">
-        <h2 className="text-2xl font-bold mb-6 text-center text-green-300">Login</h2>
+    <div className="min-h-screen flex items-center justify-center bg-forest-background p-10">
+      <div className="p-6 rounded-lg w-full max-w-md shadow-lg shadow-forest-light-green">
+        <h2 className="text-2xl font-bold mb-6 text-center text-gradient">Login</h2>
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
@@ -55,7 +55,7 @@ const LoginPage = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-700"
+              className="btn-gradient font-bold py-2 px-4 rounded-full"
             >
               Login
             </button>

@@ -1,0 +1,23 @@
+/* src/styles.css */
+.text-gradient {
+    background: linear-gradient(to right, #00FF7F, #FFD700, #00CED1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.btn-gradient {
+    background: linear-gradient(to right, #00FF7F, #00CED1);
+    color: #111111; /* Warna teks */
+  }
+  
+.btn-gradient:hover {
+    background: linear-gradient(to right, #00CED1, #006400);
+  }
+
+.card-zoom {
+    transition: transform 0.3s ease;
+  }
+  
+.card-zoom:hover {
+    transform: scale(1.05); /* Scale the card slightly on hover */
+  }
