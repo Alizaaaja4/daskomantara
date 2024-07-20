@@ -13,8 +13,8 @@ export const DASHBOARD_DATA_REG = [
       title: "Soal TA",
       openDate: "20 Juli 2024",
       closeDate: "20 Juli 2024",
-      status: "ON-GOING",
-      link1: "https://forms.gle/KZM21HbWYcHQLhw98",
+      status: "CLOSED",
+      // link1: "https://forms.gle/KZM21HbWYcHQLhw98",
       // link2: "https://forms.gle/mj3n7EGTgbyqsztz5",
     },
     {
@@ -22,8 +22,8 @@ export const DASHBOARD_DATA_REG = [
       title: "Soal TK",
       openDate: "20 Juli 2024",
       closeDate: "20 Juli 2024",
-      status: "ON-GOING",
-      link1: "https://forms.gle/w2mk7h7m5Cd2dc5K9",
+      status: "CLOSED",
+      // link1: "https://forms.gle/w2mk7h7m5Cd2dc5K9",
       // link2: "https://forms.gle/oSKhnshehpnvam7dA",
     },
     {
@@ -31,8 +31,8 @@ export const DASHBOARD_DATA_REG = [
       title: "JURNAL",
       openDate: "20 Juli 2024",
       closeDate: "20 Juli 2024",
-      status: "ON-GOING",
-      link1: "https://docs.google.com/document/d/1lzqEcKcbo9u3DNpyXv-bHb2505unBBO_/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      status: "CLOSED",
+      // link1: "https://docs.google.com/document/d/1lzqEcKcbo9u3DNpyXv-bHb2505unBBO_/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1STnDuqwPxQLHjCnZe_5cTv3exUtzrGEB/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
     },
     {
@@ -40,8 +40,8 @@ export const DASHBOARD_DATA_REG = [
       title: "MANDIRI",
       openDate: "20 Juli 2024",
       closeDate: "20 Juli 2024",
-      status: "ON-GOING",
-      link1: "https://docs.google.com/document/d/1F2pBCJ6x-92pObhEkuB7jg7_FSNv9ffh/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      status: "CLOSED",
+      // link1: "https://docs.google.com/document/d/1F2pBCJ6x-92pObhEkuB7jg7_FSNv9ffh/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1DJaxMmwyMxxJyZvh_gMNKBbg2qTqLV89/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
     },
     {
