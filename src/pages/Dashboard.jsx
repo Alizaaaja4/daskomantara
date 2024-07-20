@@ -1,4 +1,4 @@
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { FaFileAlt, FaJournalWhills, FaClipboardCheck, FaBookOpen } from 'react-icons/fa';
 import { DASHBOARD_DATA_REG, DASHBOARD_DATA_INTER } from '../constants/Database';
 import FooterDash from "../components/FooterDash";
@@ -56,7 +56,7 @@ const Dashboard = () => {
         <div className="">
           <h3 className="text-2xl font-bold mb-4 text-white">REGULER</h3>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {DASHBOARD_DATA_REG.map(({ id, title, openDate, closeDate, status, link1, link2 }) => (
             <div key={id} className="bg-forest-card border p-4 rounded-lg flex flex-col shadow-md shadow-forest-light-green card-zoom">
               {getIcon(title)}
@@ -65,8 +65,8 @@ const Dashboard = () => {
               <p className="text-forest-light-gray mb-2">Tutup pada: {closeDate}</p>
               <p className="text-forest-light-gray mb-4">Status: {status}</p>
               <div className="flex justify-center mt-6">
-                <Link to={link1} className="bg-yellow-500 text-white py-2 px-4 rounded-md text-center hover:bg-yellow-600">Modul 3</Link>
-                <Link to={link2} className="bg-purple-500 text-white py-2 px-4 rounded-md text-center hover:bg-purple-600 ml-2">Modul 4</Link>
+                <a href={link1} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white py-2 px-4 rounded-md text-center hover:bg-blue-900">Modul 3</a>
+                <a href={link2} target="_blank" rel="noopener noreferrer" className="bg-orange-600 text-white py-2 px-4 rounded-md text-center hover:bg-orange-900 ml-2">Modul 4</a>
               </div>
             </div>
           ))}
@@ -86,8 +86,8 @@ const Dashboard = () => {
               <p className="text-forest-light-gray mb-2">Close on: {closeDate}</p>
               <p className="text-forest-light-gray mb-4">Status: {status}</p>
               <div className="flex justify-center mt-6">
-                <Link to={link1} className="bg-yellow-500 text-white py-2 px-4 rounded-md text-center hover:bg-yellow-600">Modul 3</Link>
-                <Link to={link2} className="bg-purple-500 text-white py-2 px-4 rounded-md text-center hover:bg-purple-600 ml-2">Modul 4</Link>
+                <a href={link1} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white py-2 px-4 rounded-md text-center hover:bg-blue-900">Modul 3</a>
+                <a href={link2} target="_blank" rel="noopener noreferrer" className="bg-orange-600 text-white py-2 px-4 rounded-md text-center hover:bg-orange-900 ml-2">Modul 4</a>
               </div>
             </div>
           ))}
