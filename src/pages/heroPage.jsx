@@ -14,7 +14,7 @@ const HeroPage = () => {
               Antara Daskom Practicum
             </span>
           </h1>
-          <p className="text-center max-w-xl mx-auto text-lg mb-6 text-gray-600">
+          <p className="text-center max-w-xl mx-auto text-lg mb-6 text-gray-400">
             This is the official site of Praktikum Antara Daskom, where you can find the latest information on assignments and important schedules related to practicum activities.
           </p>
           <div className="text-center">
