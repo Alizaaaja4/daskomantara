@@ -12,8 +12,6 @@ antaraDaskom App dibangun menggunakan **React.js** dan **Tailwind CSS**, memberi
 
 > "Menjadi Software Developer memang tidak mudah, tapi jika dimulai dengan kesabaran dan selalu disertai dengan semangat dalam mempelajarinya maka akan didapatkan hasil yang sangat memuaskan kalian semua entah di **Universitas** maupun di **Pekerjaan** kalian nanti. ~FAI"
 
-Untuk itu saya ***Aliza*** berinisiatif untuk membuatkan dokumentasi sebagai sarana belajar dan development software yang berkaitan dengan Daskom.
-
 ---
 
 ## Contributors
