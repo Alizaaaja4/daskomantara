@@ -1,18 +1,12 @@
-# Selamat datang di antaraDaskom App
+# Selamat datang di antaraDaskom Web
 
-[![codebeat badge](https://codebeat.co/badges/da08ee89-8548-4e7b-9f36-fe175517c9b5)](https://codebeat.co/projects/github-com-daskomdev-daskomweb-master) ![Daskomlab.com deployment](https://github.com/daskomdev/daskomweb/workflows/Daskomlab.com%20deployment/badge.svg)
+![Demo GIF](https://github.com/Alizaaaja4/antaraWeb/blob/main/src/assets/dokumentasi.gif)
 
-![Demo GIF](https://raw.githubusercontent.com/Alizaaaja4/antaraApp/main/src/assets/Dokumentasi.gif)
+## Tentang antaraDaskom Web
 
-## Tentang antaraDaskom App
+antaraDaskom dibuat untuk kegiatan praktikum antara di mana saat ini website praktikum Daskom yang resmi sedang dalam tahap maintenance untuk persiapan praktikum semester baru.
 
-antaraDaskom App dibuat untuk kegiatan praktikum antara di mana saat ini website praktikum Daskom yang resmi sedang dalam tahap maintenance untuk persiapan praktikum semester baru.
-
-antaraDaskom App dibangun menggunakan **React.js** dan **Tailwind CSS**, memberikan alternatif bagi kalian jika website Daskom resmi tidak dapat digunakan untuk kegiatan praktikum antara.
-
-> "Menjadi Software Developer memang tidak mudah, tapi jika dimulai dengan kesabaran dan selalu disertai dengan semangat dalam mempelajarinya maka akan didapatkan hasil yang sangat memuaskan kalian semua entah di **Universitas** maupun di **Pekerjaan** kalian nanti. ~FAI"
-
-Untuk itu saya ***Aliza*** berinisiatif untuk membuatkan dokumentasi sebagai sarana belajar dan development software yang berkaitan dengan Daskom.
+antaraDaskom dibangun menggunakan **React.js** dan **Tailwind CSS**, memberikan alternatif bagi kalian jika website Daskom resmi tidak dapat digunakan untuk kegiatan praktikum antara.
 
 ---
 
