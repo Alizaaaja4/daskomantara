@@ -18,7 +18,7 @@ export const DASHBOARD_DATA_REG = [
       // link2: "https://forms.gle/PFMkL4TexQDR1HAX9",
 
       // Link1: "",
-      Link2: "https://bit.ly/TAReguler",
+      link2: "https://bit.ly/TAReguler",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export const DASHBOARD_DATA_REG = [
       // link2: "https://forms.gle/AVKHf7AQi5Fgd2oEA",
 
       // Link1: "",
-      Link2: "https://bit.ly/TKReguler",
+      link2: "https://bit.ly/TKReguler",
     },
     {
       id: 4,
@@ -41,8 +41,8 @@ export const DASHBOARD_DATA_REG = [
       // link1: "https://docs.google.com/document/d/1Uj0qQ-zl1J-uuhSlrklDWp1fkAPL1LWY/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1uaO6iYuyKRSxP8SNG4ub3iiqCFwTfsAt/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
 
-      Link1: "https://bit.ly/JURNALREG1",
-      Link2: "https://bit.ly/JURNALREG2",
+      link1: "https://bit.ly/JURNALREG1",
+      link2: "https://bit.ly/JURNALREG2",
     },
     {
       id: 5,
@@ -53,8 +53,8 @@ export const DASHBOARD_DATA_REG = [
       // link1: "https://docs.google.com/document/d/1ey8Ydst4ixB1JPBlBSPWux93CupIAd_i/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1-QVWhQUfdZcQyqB4bm_uPcSMV6bSR5y6/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
 
-      Link1: "https://bit.ly/MANDIRIREG1",
-      Link2: "https://bit.ly/MANDIRIREG2",
+      link1: "https://bit.ly/MANDIRIREG1",
+      link2: "https://bit.ly/MANDIRIREG2",
     },
     {
       id: 6,
