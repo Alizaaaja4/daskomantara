@@ -1,7 +1,5 @@
 # Selamat datang di antaraDaskom Web
 
-![Demo GIF](https://github.com/Alizaaaja4/antaraWeb/blob/main/src/assets/dokumentasi.gif)
-
 ## Tentang antaraDaskom Web
 
 antaraDaskom dibuat untuk kegiatan praktikum antara di mana saat ini website praktikum Daskom yang resmi sedang dalam tahap maintenance untuk persiapan praktikum semester baru.
