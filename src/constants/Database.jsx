@@ -13,8 +13,8 @@ export const DASHBOARD_DATA_REG = [
       title: "Soal TA",
       openDate: "3 Agustus 2024",
       closeDate: "3 Agustus 2024",
-      status: "CLOSED",
-      // link1: "https://forms.gle/2pivfPbRTUN1Bxbo6",
+      status: "On-Going",
+      link1: "https://forms.gle/DL22bSHfi8j67SNa8",
       // link2: "https://forms.gle/PFMkL4TexQDR1HAX9",
 
       // Link1: "",
@@ -25,8 +25,8 @@ export const DASHBOARD_DATA_REG = [
       title: "Soal TK",
       openDate: "3 Agustus 2024",
       closeDate: "3 Agustus 2024",
-      status: "CLOSED",
-      // link1: "https://forms.gle/HQrxA1Koo5xwpXBQ8",
+      status: "On-Going",
+      link1: "https://forms.gle/DmVvWEKPVcZPomwf7",
       // link2: "https://forms.gle/AVKHf7AQi5Fgd2oEA",
 
       // Link1: "",
@@ -37,8 +37,8 @@ export const DASHBOARD_DATA_REG = [
       title: "JURNAL",
       openDate: "3 Agustus 2024",
       closeDate: "3 Agustus 2024",
-      status: "CLOSED",
-      // link1: "https://docs.google.com/document/d/1Uj0qQ-zl1J-uuhSlrklDWp1fkAPL1LWY/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      status: "On-Going",
+      link1: "https://docs.google.com/document/d/1mi7RpwwqAr_K_8dujxm6UsIJK7lvcMCr/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1uaO6iYuyKRSxP8SNG4ub3iiqCFwTfsAt/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
 
       // link1: "https://bit.ly/JURNALREG1",
@@ -49,8 +49,8 @@ export const DASHBOARD_DATA_REG = [
       title: "MANDIRI",
       openDate: "3 Agustus 2024",
       closeDate: "3 Agustus 2024",
-      status: "CLOSED",
-      // link1: "https://docs.google.com/document/d/1ey8Ydst4ixB1JPBlBSPWux93CupIAd_i/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      status: "On-Going",
+      link1: "https://docs.google.com/document/d/1js31cVPum5kf4lEFDrA2Dx90SN97T7EG/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1-QVWhQUfdZcQyqB4bm_uPcSMV6bSR5y6/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
 
       // link1: "https://bit.ly/MANDIRIREG1",
@@ -83,7 +83,7 @@ export const DASHBOARD_DATA_REG = [
       openDate: "August 2, 2024",
       closeDate: "August 2, 2024",
       status: "On-Going",
-      link1: "https://docs.google.com/forms/d/1F-wj0spR7MGrL-Rpn2XyaHiSiM139Bq9LRWbnYzA9nM/viewform?edit_requested=true",
+      // link1: "https://docs.google.com/forms/d/1F-wj0spR7MGrL-Rpn2XyaHiSiM139Bq9LRWbnYzA9nM/viewform?edit_requested=true",
       // link2: "https://docs.google.com/forms/d/1is8CsYcWdq9FRNHePfT6-LI3GPdhlT-o4L8PRJu6mkQ/viewform?edit_requested=true",
     },
     {
@@ -92,7 +92,7 @@ export const DASHBOARD_DATA_REG = [
       openDate: "August 2, 2024",
       closeDate: "August 2, 2024",
       status: "On-Going",
-      link1: "https://docs.google.com/forms/d/1O9WZvhfShlYGS99eIB0Mn7Dqi00NPvRss9gPTi9TTQY/viewform?edit_requested=true",
+      // link1: "https://docs.google.com/forms/d/1O9WZvhfShlYGS99eIB0Mn7Dqi00NPvRss9gPTi9TTQY/viewform?edit_requested=true",
       // link2: "https://docs.google.com/forms/d/1CBtWD6BVr-N2wIIHs0Fz2LOX7XP3jOzHv0RNR-q8FYU/viewform?edit_requested=true",
     },
     {
@@ -101,7 +101,7 @@ export const DASHBOARD_DATA_REG = [
       openDate: "August 2, 2024",
       closeDate: "August 2, 2024",
       status: "On-Going",
-      link1: "https://docs.google.com/document/d/1UmAF5EDhFBLNqt51L4HmDUBzZ1ZsSWI1/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      // link1: "https://docs.google.com/document/d/1UmAF5EDhFBLNqt51L4HmDUBzZ1ZsSWI1/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1FGZCjZ8QmnK27SqupG604cBSYZGJWfj-/edit?usp=drive_link",
     },
     {
@@ -110,7 +110,7 @@ export const DASHBOARD_DATA_REG = [
       openDate: "August 2, 2024",
       closeDate: "August 2, 2024",
       status: "On-Going",
-      link1: "https://docs.google.com/document/d/1KaVa2YnElCZULIVR9DLWyuYi_k1kGaBj/edit?usp=drive_link",
+      // link1: "https://docs.google.com/document/d/1KaVa2YnElCZULIVR9DLWyuYi_k1kGaBj/edit?usp=drive_link",
       // link2: "https://docs.google.com/document/d/1QciQtzXsh8xonFusltxn8Ei8Rghndpj9/edit?usp=drive_link",
     },
     {
