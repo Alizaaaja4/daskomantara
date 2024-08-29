@@ -65,7 +65,7 @@ const Dashboard = () => {
               <p className="text-forest-light-gray mb-2">Tutup pada: {closeDate}</p>
               <p className="text-forest-light-gray mb-4">Status: {status}</p>
               <div className="flex justify-center mt-6">
-                <a href={link1} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white py-2 px-4 rounded-md text-center hover:bg-blue-900">Modul 1</a>
+                <a href={link1} target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white py-2 px-4 rounded-md text-center hover:bg-blue-900">Modul 9</a>
                 <a href={link2} target="_blank" rel="noopener noreferrer" className="bg-orange-600 text-white py-2 px-4 rounded-md text-center hover:bg-orange-900 ml-2">Modul 2</a>
               </div>
             </div>
