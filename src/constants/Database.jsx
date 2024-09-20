@@ -13,8 +13,8 @@ export const DASHBOARD_DATA_REG = [
       title: "Soal TA",
       openDate: "30 Agustus 2024",
       closeDate: "30 Agustus 2024",
-      status: "On-Going",
-      link1: "https://forms.gle/iQEbdtvNtnu3xjhK7",
+      status: "CLOSED",
+      // link1: "https://forms.gle/iQEbdtvNtnu3xjhK7",
       // link2: "https://bit.ly/TAReguler",
 
       // Link1: "",
@@ -25,8 +25,8 @@ export const DASHBOARD_DATA_REG = [
       title: "Soal TK",
       openDate: "30 Agustus 2024",
       closeDate: "30 Agustus 2024",
-      status: "On-Going",
-      link1: "https://forms.gle/br8kq7wg6rKKn5nP6",
+      status: "CLOSED",
+      // link1: "https://forms.gle/br8kq7wg6rKKn5nP6",
       // link2: "https://bit.ly/TKReguler",
 
       // Link1: "",
@@ -37,11 +37,11 @@ export const DASHBOARD_DATA_REG = [
       title: "JURNAL",
       openDate: "30 Agustus 2024",
       closeDate: "30 Agustus 2024",
-      status: "On-Going",
+      status: "CLOSED",
       // link1: "https://docs.google.com/document/d/1RRGDsbQ-xuYrAPhMYPVYOxb7qcI_fGmL/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1MrQZR8oUHRcLvIzFIqappz-Xo-7D5U_y/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
 
-      link1: "https://docs.google.com/document/d/1RRGDsbQ-xuYrAPhMYPVYOxb7qcI_fGmL/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      // link1: "https://docs.google.com/document/d/1RRGDsbQ-xuYrAPhMYPVYOxb7qcI_fGmL/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://bit.ly/JURNALREG2",
     },
     {
@@ -49,11 +49,11 @@ export const DASHBOARD_DATA_REG = [
       title: "MANDIRI",
       openDate: "30 Agustus 2024",
       closeDate: "30 Agustus 2024",
-      status: "On-Going",
+      status: "CLOSED",
       // link1: "https://docs.google.com/document/d/1zts0Ynd9J9Obz_OwYdHUCNf4RiKzhU4d/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://docs.google.com/document/d/1ezJK5eTtHpA2Xfb8MLDawR8nr0YisdrJ/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
 
-      link1: "https://docs.google.com/document/d/1zts0Ynd9J9Obz_OwYdHUCNf4RiKzhU4d/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
+      // link1: "https://docs.google.com/document/d/1zts0Ynd9J9Obz_OwYdHUCNf4RiKzhU4d/edit?usp=drive_link&ouid=107866615986334911734&rtpof=true&sd=true",
       // link2: "https://bit.ly/MANDIRIREG2",
     },
     {
